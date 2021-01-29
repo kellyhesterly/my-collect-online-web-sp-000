@@ -13,6 +13,6 @@ def my_collect(collection)
       counter += 1
       end
   new_array
-end
+    end
   end
 end
