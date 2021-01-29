@@ -11,8 +11,8 @@ def my_collect(collection)
     collection.collect do |name|
       new_array << name.split(" ").first
       counter += 1
+    end
       end
   new_array
-    end
   end
 end
