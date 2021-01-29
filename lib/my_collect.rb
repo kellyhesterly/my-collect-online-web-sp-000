@@ -1,3 +1,5 @@
+
+
 def my_collect(collection)
   new_array = []
   counter = 0
@@ -6,5 +8,6 @@ def my_collect(collection)
     new_array << language.upcase
     counter += 1
   end
+  new_arrau
   end
 end
