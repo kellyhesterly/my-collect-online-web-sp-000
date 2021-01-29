@@ -7,7 +7,7 @@ def my_collect(collection)
   collection.collect do |language|
     new_array << language.upcase
     counter += 1
-  else
+  elsif
     collection.collect do |student|
     new_array << student.split(" ").first
   end
