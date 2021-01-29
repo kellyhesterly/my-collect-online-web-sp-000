@@ -7,11 +7,11 @@ def my_collect(collection)
   collection.collect do |language|
     new_array << language.upcase
     counter += 1
-  end
+  unless collection.split(" ").length < 1
+    collection.collect do |name|
+      new_array << name.split(" ").first
+      counter += 1
+      end
   new_array
   end
 end
-
-unless collection.split(" ").length < 1
-  collection.collect do |name|
-    new_array << name.split(" ")
