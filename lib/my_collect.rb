@@ -1,9 +1,10 @@
-def my_collect(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-end
-collection
+def my_collect(collection)
+  new_array = []
+  counter = 0
+  if counter < collection.length
+  collection.collect do |language|
+    new_array << language.upcase
+    counter += 1
+  end
+  end
 end
