@@ -9,7 +9,8 @@ def my_collect(collection)
     counter += 1
   else
     collection.collect do |student|
-      new_array << student.split(" ").first
+    new_array << student.split(" ").first
+  end
   end
   new_array
   end
