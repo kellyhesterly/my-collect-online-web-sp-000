@@ -11,3 +11,7 @@ def my_collect(collection)
   new_array
   end
 end
+
+unless collection.split(" ").length < 1
+  collection.collect do |name|
+    new_array << name.split(" ")
