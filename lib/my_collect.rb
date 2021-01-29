@@ -8,6 +8,6 @@ def my_collect(collection)
     new_array << language.upcase
     counter += 1
   end
-  new_arrau
+  new_array
   end
 end
